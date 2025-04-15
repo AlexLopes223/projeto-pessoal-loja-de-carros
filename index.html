@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Carros</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js" defer></script>
+</head>
+<body>
+    
+        <h1>Loja de Carros</h1>
+        <h2>Preço acessivél</h2>
+            
+
+    <section class="tiposdecarro">
+        <div class="carro">
+            <img src="src/travbai.webp" alt="Carro Esportivo">
+            <h3>Carro Esportivo</h3>
+            <button onclick="mostrarDetalhes('Carro Esportivo', 'R$150.000')">Ver Preço</button>
+        </div>
+        <div class="carro">
+            <img src="src/fiat uno.jpg" alt="FIAT UNO">
+            <h3>FIAT UNO</h3>
+            <button onclick="mostrarDetalhes('FIAT UNO', 'R$200.000')">Ver Preço</button>
+        </div>
+        <div class="carro">
+            <img src="src/sedan luxo.jpg" alt="Sedan Luxo">
+            <h3>Sedan Luxo</h3>
+            <button onclick="mostrarDetalhes('Sedan Luxo', 'R$180.000')">Ver Preço</button>
+        </div>
+        <div class="carro">
+            <img src="src/hatch compacto.jpg" alt="Hatch Compacto">
+            <h3>Hatch Compacto</h3>
+            <button onclick="mostrarDetalhes('Hatch Compacto', 'R$90.000')">Ver Preço</button>
+        </div>
+        <div class="carro">
+            <img src="src/dogde ram.jpg" alt="Picape Off-Road">
+            <h3>Dodge ram</h3>
+            <button onclick="mostrarDetalhes('dodge ram', 'R$250.000')">Ver Preço</button>
+        </div>
+        <div class="carro">
+            <img src="src/carro classico.jpg" alt="Carro Clássico">
+            <h3>Carro Clássico</h3>
+            <button onclick="mostrarDetalhes('Carro Clássico', 'R$300.000')">Ver Preço</button>
+        </div>
+    </section>
+
+    <div id="detalhes" class="detalhes"></div>
+</body>
+</html>
